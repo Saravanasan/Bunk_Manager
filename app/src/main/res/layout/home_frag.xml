@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".First">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BUNK MANAGER"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="75dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="155dp"
+            android:textColor="#000000"
+            android:text="SUBJECT"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="255dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:text="DATE"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:id="@+id/date"
+            android:layout_height="50dp"
+            android:inputType="date"
+            android:background="@drawable/border"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="250dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="355dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:text="HOURS"/>
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/subj"
+            android:background="@drawable/spinner_bak"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="150dp"
+            />
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="150dp"
+            android:background="@drawable/spinner_bak"
+            android:id="@+id/number"/>
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:text="SUBMIT"
+            android:id="@+id/sub"
+            android:textSize="20dp"
+            android:layout_marginTop="455dp"
+            android:layout_marginLeft="125dp"/>
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

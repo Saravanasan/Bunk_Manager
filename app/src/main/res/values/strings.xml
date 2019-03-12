@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Bunk Manager</string>
+
+    <string-array name="number">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+
+    </string-array>
+    <string name="title_activity_first">Bunk Manager</string>
+    <string name ="preference_file_key">SharedPreferenceFileKey</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

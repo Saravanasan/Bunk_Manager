@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="123dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="165dp"
+        android:text="LOGIN"
+        android:textSize="27dp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/roll"
+        android:layout_width="337dp"
+        android:padding="15dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="233dp"
+        android:layout_marginLeft="37dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:background="@drawable/shapetext"
+        android:layout_marginRight="5dp"
+        android:ems="10"
+        android:hint=" Roll Number"
+        android:inputType="number"
+        android:maxLength="10"
+        android:textSize="18sp" />
+
+
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="232dp"
+        android:layout_height="119dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@mipmap/login" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="337dp"
+        android:layout_height="59dp"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="320dp"
+        android:maxLength="10"
+        android:layout_marginBottom="183dp"
+        android:padding="15dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/shapetext"
+        android:hint=" Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="433dp"
+        android:background="@drawable/buttonshape"
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="Login"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="433dp"
+        android:layout_marginLeft="225dp"
+        android:background="@drawable/buttonshape"
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="Signup"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/eye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="340dp"
+        app:srcCompat="@drawable/ic_visibility_off_black_24dp" />
+
+
+</RelativeLayout>

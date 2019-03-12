@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBJECTS"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="160dp"
+        android:id="@+id/addsubj"
+        android:background="@drawable/shapetext"
+        android:inputType="textCapSentences"
+        android:hint=" SUBJECT"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_library_books_black_24dp"/>
+
+    <EditText
+        android:id="@+id/addcredit"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/shapetext"
+        android:drawableLeft="@drawable/ic_attach_money_black_24dp"
+        android:hint="CREDIT"
+        android:padding="10dp"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:id="@+id/submit"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/buttonshape"
+        android:text="SUBMIT"
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/del"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/buttonshape"
+        android:text="Delete"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#000000"/>
+
+
+</RelativeLayout>
